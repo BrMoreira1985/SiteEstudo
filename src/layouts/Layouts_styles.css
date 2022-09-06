@@ -15,64 +15,6 @@
   align-items: center;
 }
 
-.header-area .icone {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.menu-usuario {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 400px;
-  height: 40px;
-}
-
-.area-de-clique {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 40%;
-  height: 40px;
-  pointer-events: all;
-  cursor: pointer;
-}
-
-.area-de-clique .menu-dropdown {
-  transform: translate(-20px, 0);
-  pointer-events: none;
-  border: none;
-  width: 200px;
-  overflow: hidden;
-  opacity: 0;
-}
-
-.area-de-clique:hover .menu-dropdown {
-  top: 65px;
-  width: 200px;
-  overflow: scroll;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.carrinho {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.cadastro {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
 .footer-container {
   background-color: var(--navbar);
   opacity: 0.3;

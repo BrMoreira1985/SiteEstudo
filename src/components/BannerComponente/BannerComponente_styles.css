@@ -3,11 +3,11 @@
   width: 100%;
   height: 90vh;
   overflow: hidden;
+  justify-content: center;
 }
 
 .banner img {
   transform: scale(1.5);
   object-fit: cover;
-  object-position: 200px -40px;
-  pointer-events: none;
+  object-position: 0px -40px;
 }

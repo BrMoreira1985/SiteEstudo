@@ -1,6 +1,7 @@
 import "./Layouts_styles.css";
 import { FaUser } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
+import LogoComponente from "../components/LogoComponente/LogoComponente";
 import BarraPesquisaComponente from "../components/BarraPesquisaComponente/BarraPesquisaComponente";
 import MenuDropdownComponente from "../components/MenuDropdownComponente/MenuDropdownComponente";
 import LinkCustomizadoComponente from "../components/MenuDropdownComponente/LinkCustomizadoComponente";
@@ -9,15 +10,11 @@ export default function Header() {
   return (
     <div className="header-container">
       <div className="header-area">
-        <img
-          className="icone"
-          src={require("./images/Ocean_logo.png")}
-          alt=""
-        />
+        <LogoComponente />
 
         <BarraPesquisaComponente />
         <div className="menu-usuario">
-          <div className="area-de-clique">
+          <button className="area-de-clique">
             <div className="cadastro">
               <FaUser />
               <span>Meu cadastro</span>
@@ -30,7 +27,7 @@ export default function Header() {
                 </>
               }
             />
-          </div>
+          </button>
 
           <div className="area-de-clique">
             <div className="carrinho">

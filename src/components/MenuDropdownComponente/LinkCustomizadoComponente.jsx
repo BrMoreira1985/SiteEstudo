@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function LinkCustomizadoComponente({ nome, rota }) {
   return (
-    <span className="link-customizado">
-      <Link to={rota}>{nome}</Link>
-    </span>
+    <Link to={rota}>
+      <button className="link-customizado">{nome}</button>
+    </Link>
   );
 }
