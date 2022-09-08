@@ -29,6 +29,7 @@
   letter-spacing: 0.1rem;
   color: var(--azul_marinho);
   pointer-events: none;
+  /*border: 1px solid orange;*/
 }
 
 * button {

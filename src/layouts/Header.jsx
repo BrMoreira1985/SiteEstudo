@@ -22,8 +22,11 @@ export default function Header() {
             <MenuDropdownComponente
               conteudo={
                 <>
-                  <LinkCustomizadoComponente nome="Entrar" rota={"/"} />
-                  <LinkCustomizadoComponente nome="Cadastrar" rota={"/"} />
+                  <LinkCustomizadoComponente nome="Entrar" rota={"/login"} />
+                  <LinkCustomizadoComponente
+                    nome="Cadastrar"
+                    rota={"/cadastro"}
+                  />
                 </>
               }
             />

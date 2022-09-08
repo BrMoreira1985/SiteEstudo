@@ -71,17 +71,14 @@
 .menu-dropdown {
   display: flex;
   gap: 0px;
-  transform: translate(-20px, 0);
   border: none;
   width: 200px;
-  height: 0;
-  top: 30px;
-  /* overflow: hidden;*/
+  top: 25px;
   opacity: 0;
 }
 
 .area-de-clique:hover .menu-dropdown {
-  top: 70px;
+  top: 80px;
   gap: 10px;
   overflow: scroll;
   height: auto;
