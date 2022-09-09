@@ -1,11 +1,12 @@
 .container-barra-pesquisa {
-  width: 40%;
+  width: 70%;
   height: 40px;
   display: flex;
+  margin: 0 40px 0 40px;
 }
 
 .container-barra-pesquisa input {
-  width: 90%;
+  width: 100%;
   border-radius: 40px 0 0 40px;
   padding-left: 10px;
   border: none;
@@ -21,4 +22,12 @@
   border: none;
   pointer-events: all;
   cursor: pointer;
+}
+
+@media (max-width: 900px){
+  .container-barra-pesquisa {
+    width: 90%;
+    margin: 0 10px 0 00px;
+    
+  }
 }

@@ -33,9 +33,13 @@
 }
 
 * button {
+  background-color: var(--azul_marinho);
+  color: var(--branco_amarelado);
   display: flex;
   transition: all 0.15s ease-in-out;
   border: none;
+  border-radius: 5px;
+  height: 40px;
   justify-content: center;
   align-items: center;
   pointer-events: all;
@@ -43,8 +47,17 @@
 }
 
 * button:hover {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
+  background-color: var(--azul_piscina);
 }
+
+* button:active {
+  background-color: var(--branco_amarelado);
+  letter-spacing: 0.15rem;
+  color: var(--azul_marinho);
+  box-shadow: 0 0 5px var(--azul_piscina);
+}
+
 
 a {
   text-decoration: none;

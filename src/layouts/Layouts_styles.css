@@ -8,7 +8,7 @@
 
 .header-area {
   width: calc(100% - 5vw);
-  max-width: 1200px;
+  max-width: 1300px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -16,6 +16,7 @@
 }
 
 .footer-container {
+  height: 100%;
+  width: 100%;
   background-color: var(--navbar);
-  opacity: 0.3;
 }

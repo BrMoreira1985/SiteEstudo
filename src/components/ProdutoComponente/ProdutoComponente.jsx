@@ -1,7 +1,7 @@
-import "./ProdutoCatalogoComponente_styles.css";
+import "./ProdutoComponente_styles.css";
 import { ConverterReal } from "../../assets/Funcoes";
 
-export default function ProdutoCatalogoComponente({
+export default function ProdutoComponente({
   imagem,
   nome,
   precoDesconto,

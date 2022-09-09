@@ -1,12 +1,12 @@
 import "./CatalogoComponente_styles.css";
-import ProdutoCatalogoComponente from "../ProdutoCatalogoComponente/ProdutoCatalogoComponente";
+import ProdutoComponente from "../ProdutoComponente/ProdutoComponente";
 import { Dados } from "../../assets/Dados";
 
 export default function CatalogoComponente() {
   return (
     <div className="catalogo-container">
       {Dados.map((roupa) => (
-        <ProdutoCatalogoComponente
+        <ProdutoComponente
           key={roupa.id}
           imagem={roupa.image}
           nome={roupa.nome}

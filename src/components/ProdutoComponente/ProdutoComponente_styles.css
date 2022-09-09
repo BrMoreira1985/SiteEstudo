@@ -65,23 +65,7 @@
 }
 
 .adicionar {
-  background-color: var(--azul_marinho);
-  border: none;
-  color: var(--branco_amarelado);
+
   width: 80%;
-  height: 40px;
-  border-radius: 5px;
-  pointer-events: all;
-  cursor: pointer;
-}
 
-.adicionar:hover {
-  background-color: var(--azul_piscina);
-  letter-spacing: 0.15rem;
-}
-
-.adicionar:active {
-  background-color: var(--branco_amarelado);
-  letter-spacing: 0.15rem;
-  color: var(--azul_marinho);
 }

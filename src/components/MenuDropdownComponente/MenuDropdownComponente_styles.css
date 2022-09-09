@@ -5,9 +5,11 @@
   align-items: center;
   gap: 5px;
   top: 100px;
-  width: 200px;
+  width: auto;
   height: auto;
-  background-color: var(--transparente);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--navbar);
   z-index: 9;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -30,9 +32,6 @@
 
 .link-customizado:hover {
   background-color: var(--azul_piscina);
-}
-
-.link-customizado:hover a {
   letter-spacing: 0.2rem;
 }
 
@@ -64,8 +63,10 @@
 
 .area-de-clique {
   flex-direction: column;
-  width: 40%;
+  justify-content: center;
+  width: 150px;
   height: 40px;
+  background: none;
 }
 
 .menu-dropdown {
@@ -78,7 +79,7 @@
 }
 
 .area-de-clique:hover .menu-dropdown {
-  top: 80px;
+  top: 70px;
   gap: 10px;
   overflow: scroll;
   height: auto;
@@ -99,5 +100,16 @@
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5px;
+}
+
+@media (max-width: 900px){
+  .area-de-clique{
+      display: none;
+  }
+
+  .menu-usuario{
+    width: fit-content;
+  }
 }

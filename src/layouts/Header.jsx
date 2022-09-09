@@ -5,6 +5,7 @@ import LogoComponente from "../components/LogoComponente/LogoComponente";
 import BarraPesquisaComponente from "../components/BarraPesquisaComponente/BarraPesquisaComponente";
 import MenuDropdownComponente from "../components/MenuDropdownComponente/MenuDropdownComponente";
 import LinkCustomizadoComponente from "../components/MenuDropdownComponente/LinkCustomizadoComponente";
+import Hamburger from "../components/HamburgerComponente/HamburgerComponente";
 
 export default function Header() {
   return (
@@ -39,6 +40,7 @@ export default function Header() {
             </div>
             <MenuDropdownComponente />
           </div>
+        <Hamburger/>
         </div>
       </div>
     </div>

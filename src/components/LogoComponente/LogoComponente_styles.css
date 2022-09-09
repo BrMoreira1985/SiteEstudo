@@ -8,3 +8,12 @@
   cursor: pointer;
   overflow: hidden;
 }
+
+@media (max-width: 900px){
+  .icone {
+  
+    width: 64px;
+    height: 64px;
+  
+  }
+}
